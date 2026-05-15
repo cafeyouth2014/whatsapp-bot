@@ -1,0 +1,245 @@
+
+<style>
+  .menu-wrap { font-family: var(--font-sans); padding: 1rem 0; }
+  .cafe-header { text-align: center; margin-bottom: 2rem; }
+  .cafe-header h1 { font-size: 26px; font-weight: 500; margin: 0; color: var(--color-text-primary); letter-spacing: 2px; }
+  .cafe-header p { font-size: 13px; color: var(--color-text-secondary); margin: 4px 0 0; }
+  .section { margin-bottom: 1.5rem; border-radius: var(--border-radius-lg); overflow: hidden; border: 0.5px solid var(--color-border-tertiary); }
+  .section-header { padding: 10px 16px; font-size: 13px; font-weight: 500; letter-spacing: 1px; text-transform: uppercase; }
+  .s-purple .section-header { background: #3C3489; color: #CECBF6; }
+  .s-pink .section-header { background: #993556; color: #F4C0D1; }
+  .s-teal .section-header { background: #0F6E56; color: #9FE1CB; }
+  .s-coral .section-header { background: #993C1D; color: #F5C4B3; }
+  .s-blue .section-header { background: #185FA5; color: #B5D4F4; }
+  .s-amber .section-header { background: #854F0B; color: #FAC775; }
+  .col-headers { display: grid; grid-template-columns: 1fr 90px 90px; padding: 6px 16px; font-size: 11px; font-weight: 500; color: var(--color-text-secondary); border-bottom: 0.5px solid var(--color-border-tertiary); background: var(--color-background-secondary); }
+  .col-headers.single { grid-template-columns: 1fr 90px; }
+  .menu-row { display: grid; grid-template-columns: 1fr 90px 90px; padding: 7px 16px; font-size: 13px; color: var(--color-text-primary); border-bottom: 0.5px solid var(--color-border-tertiary); background: var(--color-background-primary); }
+  .menu-row.single { grid-template-columns: 1fr 90px; }
+  .menu-row:last-child { border-bottom: none; }
+  .price { color: var(--color-text-secondary); font-size: 13px; }
+  .info-bar { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 1.5rem; }
+  .info-pill { font-size: 12px; padding: 4px 12px; border-radius: var(--border-radius-md); border: 0.5px solid var(--color-border-tertiary); color: var(--color-text-secondary); background: var(--color-background-secondary); }
+</style>
+<div class="menu-wrap">
+  <div class="cafe-header">
+    <h1>Cafe Youth</h1>
+    <p>Fun, Frndz &amp; Gupshup &nbsp;|&nbsp; 11 AM – 11 PM &nbsp;|&nbsp; LG6-LSC1, Tirupati Complex, Vaishali, Sec-1</p>
+    <p style="margin-top:4px">9711221953 &nbsp;|&nbsp; 9711988487</p>
+  </div>
+
+  <div class="info-bar">
+    <span class="info-pill">Available on Zomato &amp; Swiggy</span>
+  </div>
+
+  <!-- NOODLES -->
+  <div class="section s-purple">
+    <div class="section-header">Noodles</div>
+    <div class="col-headers"><span>Item</span><span>Veg</span><span>Non Veg</span></div>
+    <div class="menu-row"><span>Hakka Noodles</span><span class="price">₹130</span><span class="price">₹150</span></div>
+    <div class="menu-row"><span>Chilli Garlic Noodles</span><span class="price">₹150</span><span class="price">₹170</span></div>
+    <div class="menu-row"><span>Singapuri Noodles</span><span class="price">₹160</span><span class="price">₹180</span></div>
+    <div class="menu-row"><span>Exotic Noodles</span><span class="price">₹170</span><span class="price">₹180</span></div>
+    <div class="menu-row"><span>Schezwan Noodles</span><span class="price">₹150</span><span class="price">₹170</span></div>
+    <div class="menu-row"><span>Paneer Noodles</span><span class="price">₹150</span><span class="price">₹170</span></div>
+    <div class="menu-row"><span>Chef Sp. Noodles</span><span class="price">₹140</span><span class="price">₹160</span></div>
+    <div class="menu-row"><span>Cafe Youth Special</span><span class="price">₹150</span><span class="price">₹170</span></div>
+    <div class="menu-row"><span>Youth Ishtyle Noodles</span><span class="price">₹140</span><span class="price">₹150</span></div>
+    <div class="menu-row"><span>Red Chilli Spring Onion</span><span class="price">₹140</span><span class="price">₹160</span></div>
+    <div class="menu-row"><span>Brown Garlic Noodles</span><span class="price">₹140</span><span class="price">₹160</span></div>
+    <div class="menu-row"><span>Egg Noodles</span><span class="price">₹160</span><span class="price">₹180</span></div>
+  </div>
+
+  <!-- FRIED RICE -->
+  <div class="section s-purple">
+    <div class="section-header">Fried Rice</div>
+    <div class="col-headers"><span>Item</span><span>Veg</span><span>Non Veg</span></div>
+    <div class="menu-row"><span>Fried Rice</span><span class="price">₹130</span><span class="price">₹150</span></div>
+    <div class="menu-row"><span>Chilli Garlic Fried Rice</span><span class="price">₹150</span><span class="price">₹170</span></div>
+    <div class="menu-row"><span>Paneer Fried Rice</span><span class="price">₹150</span><span class="price">₹170</span></div>
+    <div class="menu-row"><span>Chef Sp. Rice</span><span class="price">₹140</span><span class="price">₹160</span></div>
+    <div class="menu-row"><span>Schezwan Rice</span><span class="price">₹150</span><span class="price">₹160</span></div>
+    <div class="menu-row"><span>Cafe Youth Sp. Rice</span><span class="price">₹150</span><span class="price">₹170</span></div>
+    <div class="menu-row"><span>Exotic Fried Rice</span><span class="price">₹170</span><span class="price">₹180</span></div>
+    <div class="menu-row"><span>Brown Garlic Rice</span><span class="price">₹140</span><span class="price">₹160</span></div>
+    <div class="menu-row"><span>Egg Rice</span><span class="price">₹160</span><span class="price">₹170</span></div>
+  </div>
+
+  <!-- VEG GRAVY -->
+  <div class="section s-pink">
+    <div class="section-header">Veg Gravy</div>
+    <div class="col-headers single"><span>Item</span><span>Veg</span></div>
+    <div class="menu-row single"><span>Exotic Paneer Gravy</span><span class="price">₹240</span></div>
+    <div class="menu-row single"><span>Veg Manchurian</span><span class="price">₹200</span></div>
+    <div class="menu-row single"><span>Paneer Schezwan</span><span class="price">₹260</span></div>
+    <div class="menu-row single"><span>Chilli Paneer</span><span class="price">₹220</span></div>
+    <div class="menu-row single"><span>Paneer Manchurian</span><span class="price">₹220</span></div>
+  </div>
+
+  <!-- NON VEG GRAVY -->
+  <div class="section s-pink">
+    <div class="section-header">Non Veg Gravy</div>
+    <div class="col-headers single"><span>Item</span><span>Non Veg</span></div>
+    <div class="menu-row single"><span>Chicken Manchurian</span><span class="price">₹300</span></div>
+    <div class="menu-row single"><span>Chicken Hot Garlic</span><span class="price">₹320</span></div>
+    <div class="menu-row single"><span>Chicken Schezwan</span><span class="price">₹320</span></div>
+    <div class="menu-row single"><span>Chilli Chicken</span><span class="price">₹340</span></div>
+    <div class="menu-row single"><span>Chicken Hong Kong</span><span class="price">₹340</span></div>
+    <div class="menu-row single"><span>Chicken Sweet &amp; Sour</span><span class="price">₹360</span></div>
+    <div class="menu-row single"><span>Exotic Chicken</span><span class="price">₹360</span></div>
+  </div>
+
+  <!-- SOUPS -->
+  <div class="section s-pink">
+    <div class="section-header">Soups</div>
+    <div class="col-headers"><span>Item</span><span>Veg</span><span>Non Veg</span></div>
+    <div class="menu-row"><span>Sweet Corn Soup</span><span class="price">₹80</span><span class="price">₹100</span></div>
+    <div class="menu-row"><span>Hot &amp; Sour Soup</span><span class="price">₹90</span><span class="price">₹110</span></div>
+    <div class="menu-row"><span>Manchow Soup</span><span class="price">₹80</span><span class="price">₹100</span></div>
+    <div class="menu-row"><span>Thupka Soup</span><span class="price">₹90</span><span class="price">₹110</span></div>
+  </div>
+
+  <!-- VEG STARTERS -->
+  <div class="section s-coral">
+    <div class="section-header">Veg Starters</div>
+    <div class="col-headers single"><span>Item</span><span>Veg</span></div>
+    <div class="menu-row single"><span>Chilli Mushroom</span><span class="price">₹220</span></div>
+    <div class="menu-row single"><span>Chilli Chaap</span><span class="price">₹180</span></div>
+    <div class="menu-row single"><span>Veg Spring Roll</span><span class="price">₹140</span></div>
+    <div class="menu-row single"><span>Chilli Potato</span><span class="price">₹130</span></div>
+    <div class="menu-row single"><span>Honey Chilli Potato</span><span class="price">₹150</span></div>
+    <div class="menu-row single"><span>Exotic Chaap</span><span class="price">₹200</span></div>
+    <div class="menu-row single"><span>Paneer Schezwan</span><span class="price">₹220</span></div>
+    <div class="menu-row single"><span>Exotic Paneer</span><span class="price">₹260</span></div>
+    <div class="menu-row single"><span>Chilli Paneer</span><span class="price">₹220</span></div>
+    <div class="menu-row single"><span>Veg Manchurian Dry</span><span class="price">₹240</span></div>
+    <div class="menu-row single"><span>Crispy Fried Corn</span><span class="price">₹180</span></div>
+  </div>
+
+  <!-- NON VEG STARTERS -->
+  <div class="section s-coral">
+    <div class="section-header">Non Veg Starters</div>
+    <div class="col-headers single"><span>Item</span><span>Non Veg</span></div>
+    <div class="menu-row single"><span>Chicken Spring Roll</span><span class="price">₹170</span></div>
+    <div class="menu-row single"><span>Chicken Paneer Salt</span><span class="price">₹300</span></div>
+    <div class="menu-row single"><span>Exotic Chicken</span><span class="price">₹320</span></div>
+    <div class="menu-row single"><span>Chicken Manchurian</span><span class="price">₹280</span></div>
+    <div class="menu-row single"><span>Chilli Chicken</span><span class="price">₹300</span></div>
+    <div class="menu-row single"><span>Ginger Chicken</span><span class="price">₹320</span></div>
+    <div class="menu-row single"><span>Honey Chilli Chicken</span><span class="price">₹360</span></div>
+    <div class="menu-row single"><span>Chicken Schezwan</span><span class="price">₹360</span></div>
+    <div class="menu-row single"><span>Drumsticks</span><span class="price">₹360</span></div>
+    <div class="menu-row single"><span>Lolly Pop</span><span class="price">₹340</span></div>
+  </div>
+
+  <!-- MOMOS -->
+  <div class="section s-purple">
+    <div class="section-header">Momos</div>
+    <div class="col-headers"><span>Item</span><span>Veg</span><span>Non Veg</span></div>
+    <div class="menu-row"><span>Momos</span><span class="price">₹80</span><span class="price">₹100</span></div>
+    <div class="menu-row"><span>Momos Fried</span><span class="price">₹100</span><span class="price">₹120</span></div>
+    <div class="menu-row"><span>Chilli Momos</span><span class="price">₹120</span><span class="price">₹140</span></div>
+    <div class="menu-row"><span>Special Momos</span><span class="price">₹140</span><span class="price">₹160</span></div>
+    <div class="menu-row"><span>Pizza Momos</span><span class="price">₹180</span><span class="price">₹200</span></div>
+    <div class="menu-row"><span>Kurkure Momos</span><span class="price">₹140</span><span class="price">₹160</span></div>
+    <div class="menu-row"><span>Creamy Momos</span><span class="price">₹160</span><span class="price">₹180</span></div>
+    <div class="menu-row"><span>Honey Chilli Momos</span><span class="price">₹180</span><span class="price">₹200</span></div>
+  </div>
+
+  <!-- BURGERS -->
+  <div class="section s-blue">
+    <div class="section-header">Burgers</div>
+    <div class="col-headers"><span>Item</span><span>Veg</span><span>Non Veg</span></div>
+    <div class="menu-row"><span>Veggie Burger</span><span class="price">₹60</span><span class="price">₹80</span></div>
+    <div class="menu-row"><span>Veggie Cheese Burger</span><span class="price">₹70</span><span class="price">₹90</span></div>
+    <div class="menu-row"><span>Corn Cheese Burger</span><span class="price">₹80</span><span class="price">₹100</span></div>
+    <div class="menu-row"><span>Spicy Mexican Burger</span><span class="price">₹70</span><span class="price">₹90</span></div>
+    <div class="menu-row"><span>Double Cheese Burger</span><span class="price">₹80</span><span class="price">₹100</span></div>
+    <div class="menu-row"><span>Paneer Burger</span><span class="price">₹90</span><span class="price">₹110</span></div>
+    <div class="menu-row"><span>Deluxe Veggie Burger</span><span class="price">₹90</span><span class="price">₹110</span></div>
+    <div class="menu-row"><span>Cafe Youth Sp. Burger</span><span class="price">₹70</span><span class="price">₹90</span></div>
+    <div class="menu-row"><span>Spicy Indian Burger</span><span class="price">₹70</span><span class="price">₹90</span></div>
+    <div class="menu-row single"><span>Shami Kebab Burger</span><span class="price">₹90</span></div>
+    <div class="menu-row single"><span>Seekh Kebab Burger</span><span class="price">₹90</span></div>
+  </div>
+
+  <!-- MAGGIE -->
+  <div class="section s-blue">
+    <div class="section-header">Maggie</div>
+    <div class="col-headers single"><span>Item</span><span>Veg</span></div>
+    <div class="menu-row single"><span>Continental Maggie</span><span class="price">₹70</span></div>
+    <div class="menu-row single"><span>Tikka Tandoori Maggie</span><span class="price">₹80</span></div>
+    <div class="menu-row single"><span>Mexican Maggie</span><span class="price">₹80</span></div>
+    <div class="menu-row single"><span>Cheese Maggie</span><span class="price">₹80</span></div>
+    <div class="menu-row single"><span>Spicy Indian Maggie</span><span class="price">₹70</span></div>
+  </div>
+
+  <!-- GARLIC BREADS -->
+  <div class="section s-blue">
+    <div class="section-header">Garlic Breads</div>
+    <div class="col-headers"><span>Item</span><span>Veg</span><span>Non Veg</span></div>
+    <div class="menu-row single"><span>Classic Garlic Bread</span><span class="price">₹80</span></div>
+    <div class="menu-row"><span>Cheese Garlic Bread</span><span class="price">₹100</span><span class="price">₹120</span></div>
+    <div class="menu-row"><span>Supreme Garlic Bread</span><span class="price">₹120</span><span class="price">₹140</span></div>
+    <div class="menu-row"><span>Exotic Garlic Bread</span><span class="price">₹120</span><span class="price">₹140</span></div>
+    <div class="menu-row single"><span>French Fry</span><span class="price">₹80</span></div>
+  </div>
+
+  <!-- GRILLED SANDWICHES -->
+  <div class="section s-teal">
+    <div class="section-header">Grilled Sandwiches</div>
+    <div class="col-headers"><span>Item</span><span>Veg</span><span>Non Veg</span></div>
+    <div class="menu-row"><span>Fresh Salad Sandwich</span><span class="price">₹80</span><span class="price">₹100</span></div>
+    <div class="menu-row"><span>Fresh Salad Cheese Sandwich</span><span class="price">₹90</span><span class="price">₹110</span></div>
+    <div class="menu-row"><span>Continental Sandwich</span><span class="price">₹80</span><span class="price">₹100</span></div>
+    <div class="menu-row"><span>Cheese Sandwich</span><span class="price">₹90</span><span class="price">₹110</span></div>
+    <div class="menu-row"><span>Paneer Tikka Sandwich</span><span class="price">₹110</span><span class="price">₹130</span></div>
+    <div class="menu-row"><span>Cafe Youth Sp. Sandwich</span><span class="price">₹110</span><span class="price">₹130</span></div>
+    <div class="menu-row"><span>Spicy Indian Sandwich</span><span class="price">₹100</span><span class="price">₹120</span></div>
+  </div>
+
+  <!-- PASTAS -->
+  <div class="section s-teal">
+    <div class="section-header">Pastas</div>
+    <div class="col-headers"><span>Item</span><span>Veg</span><span>Non Veg</span></div>
+    <div class="menu-row"><span>Arrabiata Tangy Pasta</span><span class="price">₹150</span><span class="price">₹170</span></div>
+    <div class="menu-row"><span>Alfredo Creamy Pasta</span><span class="price">₹180</span><span class="price">₹200</span></div>
+    <div class="menu-row"><span>Mix &amp; Match</span><span class="price">₹200</span><span class="price">₹220</span></div>
+    <div class="menu-row"><span>Cafe Youth Sp.</span><span class="price">₹220</span><span class="price">₹240</span></div>
+  </div>
+
+  <!-- QUENCHERS -->
+  <div class="section s-amber">
+    <div class="section-header">Quenchers</div>
+    <div class="col-headers single"><span>Item</span><span>Price</span></div>
+    <div class="menu-row single"><span>Fresh Lime Soda</span><span class="price">₹50</span></div>
+    <div class="menu-row single"><span>Lassi Sweet/Salty</span><span class="price">₹50</span></div>
+    <div class="menu-row single"><span>Fruit Beer</span><span class="price">₹70</span></div>
+    <div class="menu-row single"><span>Mojito</span><span class="price">₹100</span></div>
+  </div>
+
+  <!-- COLD COFFEE -->
+  <div class="section s-amber">
+    <div class="section-header">Cold Coffee</div>
+    <div class="col-headers single"><span>Item</span><span>Price</span></div>
+    <div class="menu-row single"><span>Frappe</span><span class="price">₹80</span></div>
+    <div class="menu-row single"><span>Cold Coffee with Ice Cream</span><span class="price">₹100</span></div>
+    <div class="menu-row single"><span>Mocha Chino</span><span class="price">₹90</span></div>
+    <div class="menu-row single"><span>Iced Esking</span><span class="price">₹100</span></div>
+    <div class="menu-row single"><span>Chocolate Coffee</span><span class="price">₹90</span></div>
+    <div class="menu-row single"><span>Cafeteria Coffee</span><span class="price">₹100</span></div>
+  </div>
+
+  <!-- ICE CREAM SHAKES -->
+  <div class="section s-amber">
+    <div class="section-header">Ice Cream Shakes</div>
+    <div class="col-headers single"><span>Item</span><span>Price</span></div>
+    <div class="menu-row single"><span>Milky Way</span><span class="price">₹70</span></div>
+    <div class="menu-row single"><span>Strawberry Shake</span><span class="price">₹70</span></div>
+    <div class="menu-row single"><span>Chocolate Shake</span><span class="price">₹80</span></div>
+    <div class="menu-row single"><span>Rookie Cookie Shake</span><span class="price">₹80</span></div>
+    <div class="menu-row single"><span>Mocha Shake</span><span class="price">₹80</span></div>
+    <div class="menu-row single"><span>Vanilla Oreo Shake</span><span class="price">₹100</span></div>
+    <div class="menu-row single"><span>Chocolate Oreo Shake</span><span class="price">₹100</span></div>
+  </div>
+</div>
