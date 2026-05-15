@@ -84,30 +84,9 @@ def send_whatsapp_message(number, message):
 # ---------------- WEBHOOK ----------------
 @app.route("/webhook", methods=["POST"])
 def webhook():
-    print("WEBHOOK HIT")
-
+    print("🔥 WEBHOOK HIT")
     data = request.form
-
-    if not data:
-        return "no data"
-
-    message = data.get("body", "").lower()
-    sender = data.get("from", "")
-
-    print("Message:", message)
-    print("Sender:", sender)
-
-    summary, total = calculate_bill(message)
-
-    reply = f"""
-Thank you for your order ❤️
-
-{summary}
-
-Total = ₹{total}
-"""
-
-    send_whatsapp_message(sender, reply)
+    print("DATA:", data)
 
     return "ok"
 
