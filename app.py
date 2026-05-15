@@ -84,12 +84,8 @@ def send_whatsapp_message(number, message):
 # ---------------- WEBHOOK ----------------
 @app.route("/webhook", methods=["POST"])
 def webhook():
-    print("🔥 WEBHOOK HIT")
-    data = request.form
-    print("DATA:", data)
-
+    print("🔥 HIT CONFIRMED")
     return "ok"
-
 # ---------------- HOME ROUTE ----------------
 @app.route("/")
 def home():
